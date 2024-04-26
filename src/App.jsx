@@ -62,7 +62,7 @@ const inputRef = useRef(null);
             <h1>TODO LIST</h1>
             <div className="justify-between items-center flex mt-4 mb-6">
                 <input title='Write your input task' className=" mt-4 mb-2 focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-full text-sm leading-6 text-zinc-400 placeholder-slate-400 rounded-md py-2 pl-10 ring-1 ring-slate-200 shadow-sm" type="text" id="inputtask" placeholder="Enter a Task..." ref={inputRef} value={newTasks} onChange={handleInputChange} />
-                <button title='Add task' className="addbtn text-neutral-400 mt-2 ml-2 rounded-lg font-xs text-xs py-1 px-6 " onClick={addTask}>Add Task</button>
+                <button title='Add task' className="text-neutral-400 mt-2 ml-2 rounded-lg font-xs text-xs py-1 px-6 " onClick={addTask}>Add Task</button>
             </div>
 
             <ol>
