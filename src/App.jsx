@@ -29,7 +29,7 @@ const inputRef = useRef(null);
     const deleteTask = (index) => {
         const updatedTasks = tasks.filter((_, i) => i !== index);
         setTasks(updatedTasks);
-        window.alert('You Deleted a Task');
+        window.alert('You Deleted a Task'<br/>'Press OK');
 
     }
     const moveTaskUp = (index) => {
