@@ -57,7 +57,7 @@ const inputRef = useRef(null);
 
     return (
         <div className="to-do-list font-mono text-neutral-200">
-            <div className='text-zinc-500 text-4xl tracking-widest hover:text-zinc-400 ' style={{position: 'absolute', top: 40, left: 60}}>
+            <div className='text-zinc-500 text-2xl tracking-widest hover:text-zinc-400 sm:text-4xl' style={{position: 'absolute', top: 25, left: 35}}>
                 {time}
                 </div>
             <h1>TODO LIST</h1>
